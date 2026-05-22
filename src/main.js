@@ -1,13 +1,7 @@
-import './style.css'
-import javascriptLogo from './assets/javascript.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import { setupCounter } from './counter.js'
+import OBR from "@owlbear-rodeo/sdk";
 
-document.querySelector('#app').innerHTML = `
-<section id="center">
-  <button id="counter" type="button" class="counter"></button>
-</section>
-`
+function rollFudgeDice() {
+  OBR.notification.show("Rolling dice");
+}
 
-setupCounter(document.querySelector('#counter'))
+document.querySelector('#rollfudge').addEventListener('click', rollFudgeDice);
