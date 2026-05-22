@@ -6,7 +6,7 @@
     "title": "Roll Fudge Dice",
     "icon": "/icon.svg",
     "popover": "/",
-    "height": 200,
-    "width": 400
+    "height": 80,
+    "width": 300
   }
 }
