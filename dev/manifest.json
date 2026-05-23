@@ -1,11 +1,11 @@
 {
-  "name": "Fudge Dice Roller",
+  "name": "Fudge Dice Roller (Dev)",
   "version": "0.0.1",
   "manifest_version": 1,
   "action": {
     "title": "Roll Fudge Dice",
-    "icon": "/fudge-dice-roller/fudge-dice.svg",
-    "popover": "/fudge-dice-roller",
+    "icon": "/public/icon.svg",
+    "popover": "/",
     "height": 50,
     "width": 180
   }
