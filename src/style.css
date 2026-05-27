@@ -1,18 +1,11 @@
 :root {
-  --text: #333;
-  --bg: #fff;
+  --text: #ddd;
+  --bg:   #33343f;
   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
 
   color-scheme: light dark;
   font: 18px/145% var(--sans);
   background: var(--bg);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text: #ddd;
-    --bg: #33343f;
-  }
 }
 
 html, body {
